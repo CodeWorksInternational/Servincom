@@ -45,6 +45,11 @@
     max-width: 100%;
     height: auto;
 }
+.responsiveProducts {
+    max-width: 100%;
+    max-height: 400px;
+    height: auto;
+}
 .pswp {
     z-index: 9999;
 }
