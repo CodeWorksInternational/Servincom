@@ -1,0 +1,82 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: #4e7404;
+    z-index: 999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+.h1, h2, h3, h4, h5, p {
+    font-family: "Nunito", sans-serif;
+}
+.navbar-brand{
+    padding-top: 5px;
+}
+.navbar li a,
+.navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #4e7404 !important;
+    background-color: #fff !important;
+}
+.jumbotron {
+    background-color: #4e7404;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+.container-fluid {
+    padding: 60px 50px;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+.pswp {
+    z-index: 9999;
+}
+.styledButton {
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4e7404;
+    color: #fff;
+    height: 32px;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+#carousel-image {
+    height: 350px;
+    object-fit: cover;
+}
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height: 200px;
+}
+.carousel {
+    overflow: hidden;
+}
