@@ -9,7 +9,7 @@
     border-radius: 0;
 }
 .h1, h2, h3, h4, h5, p {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif !important;
 }
 .navbar-brand{
     padding-top: 5px;
